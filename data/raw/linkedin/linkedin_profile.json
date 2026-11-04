@@ -1,0 +1,33 @@
+{
+    "profile": {
+        "name": "Sonu yadav",
+        "headline": "AI Software Engineer | Machine Learning | Generative AI | Full Stack Developer | Python | RESTAPI | React | Building Intelligent Web Applications | Open to Internships",
+        "location": "Greater Delhi Area",
+        "pronouns": "He/Him",
+        "connections": 218,
+        "followers": 218,
+        "profile_url": "https://www.linkedin.com/in/sonu-yadav-2b2b04409/"
+    },
+    "about": "Passionate AI Software Engineer | Machine Learning | Full Stack Development. I am a Mechatronics Engineering student passionate about building intelligent software that combines Artificial Intelligence with modern web technologies.",
+    "education": [
+        {
+            "institution": "IP university",
+            "school": "University School of Automation and Robotics (USAR)",
+            "degree": "Bachelor of Technology",
+            "field_of_study": "Mechatronics, Robotics, and Automation Engineering",
+            "duration": "2024 - Present"
+        }
+    ],
+    "skills": [
+        "Automation Engineering",
+        "Mechatronics",
+        "PyTorch",
+        "scikit-learn",
+        "React",
+        "Node.js",
+        "FastAPI",
+        "GitHub"
+    ],
+    "experience": [],
+    "achievements": []
+}

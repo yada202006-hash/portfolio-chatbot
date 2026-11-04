@@ -1,0 +1,342 @@
+[
+    {
+        "id": "e4e90827-416e-4482-b64c-840ee8389695",
+        "content": "Name: Sonu yadav\n\n        Professional Headline:\n        AI Software Engineer | Machine Learning | Generative AI | Full Stack Developer | Python | RESTAPI | React | Building Intelligent Web Applications | Open to Internships\n\n        Location:\n        Greater Delhi Area\n\n        GitHub Username:\n        yada202006-hash\n\n        LinkedIn Profile:\n        https://www.linkedin.com/in/sonu-yadav-2b2b04409/",
+        "metadata": {
+            "category": "profile",
+            "source": "linkedin"
+        }
+    },
+    {
+        "id": "2f2612aa-b655-4a7b-8b8e-65f18964fcc4",
+        "content": "Professional Summary: Passionate AI Software Engineer | Machine Learning | Full Stack Development. I am a Mechatronics Engineering student passionate about building intelligent software that combines Artificial Intelligence with modern web technologies.",
+        "metadata": {
+            "category": "about",
+            "source": "linkedin"
+        }
+    },
+    {
+        "id": "3e715bc6-3733-4b43-8832-d13878c825b2",
+        "content": "Institution: IP university\n\n            School: University School of Automation and Robotics (USAR)\n\n            Degree: Bachelor of Technology\n\n            Field of Study:\n            Mechatronics, Robotics, and Automation Engineering\n\n            Duration: 2024 - Present",
+        "metadata": {
+            "category": "education",
+            "source": "linkedin"
+        }
+    },
+    {
+        "id": "b6c18252-3f9f-4599-a473-c082d0307783",
+        "content": "Professional Skills: Automation Engineering, Mechatronics, PyTorch, scikit-learn, React, Node.js, FastAPI, GitHub",
+        "metadata": {
+            "category": "skills",
+            "source": "linkedin"
+        }
+    },
+    {
+        "id": "c06ac657-f0c1-4d41-9606-43a585a63478",
+        "content": "Programming Languages identified from GitHub repositories: Python, Jupyter Notebook, CSS, HTML, EJS, JavaScript",
+        "metadata": {
+            "category": "programming_languages",
+            "source": "github"
+        }
+    },
+    {
+        "id": "b5d54e05-99b3-401c-9749-ff0ced0cab8e",
+        "content": "Project Name: Airbnb\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/Airbnb\n\n            Primary Language:\n            JavaScript\n\n            Technologies:\n            JavaScript, EJS, CSS\n\n            Topics:\n            \n\n            README:\n            ﻿# Airbnb\r\n# Airbnb Clone\r\n\r\nA full-stack Airbnb-inspired web application built with Node.js, Express, and MongoDB. Users can browse property listings, view details on an interactive map, sign up/log in, create their own listings with images, and leave reviews.\r\n\r\n## Features\r\n\r\n- 🔐 **User Authentication** — Sign up, log in, and log out securely using Passport.js (local strategy)\r\n- 🏠 **Listings CRUD** — Create, read, update, and delete property listings\r\n- 🖼️ **Image Uploads** — Listing images are uploaded and hosted via Cloudinary\r\n- 🗺️ **Interactive Maps** — Property locations are geocoded and displayed using Mapbox\r\n- ⭐ **Reviews** — Logged-in users can add and delete reviews on listings\r\n- ✅ **Input Validation** — Server-side validation with Joi\r\n- 🍪 **Session Management** — Persistent sessions stored in MongoDB via connect-mongo\r\n- 💬 **Flash Messages** — User feedback (success/error) via connect-flash\r\n- 🎨 **Server-Rendered Views** — Dynamic pages rendered with EJS and ejs-mate layouts\r\n\r\n## Tech Stack\r\n\r\n**Backend:** Node.js, Express 5\r\n**Database:** MongoDB with Mongoose\r\n**Templating:** EJS, ejs-mate\r\n**Authentication:** Passport, passport-local, passport-local-mongoose\r\n**File Uploads:** Multer, multer-storage-cloudinary, Cloudinary\r\n**Maps/Geocoding:** Mapbox SDK\r\n**Validation:** Joi\r\n**Sessions:** express-session, connect-mongo, connect-flash\r\n**Other:** Axios, dotenv, method-override\r\n\r\n## Project Structure\r\n\r\n```\r\nAirbnb/\r\n├── controllers/     # Route handler logic (listings, reviews, users, etc.)\r\n├── init/            # Database seeding / initialization scripts\r\n├── models/          # Mongoose schemas (Listing, Review, User)\r\n├── public/          # Static assets (CSS, client-side JS, images)\r\n├── routes/          # Express route definitions\r\n├── utils/           # Helper utilities (error handling, wrapAsync, etc.)\r\n├── views/           # EJS templates\r\n├── app.js           # Application entry point\r\n├── cloudConfig.js   # Cloudinary configuration\r\n├── middleware.js     # Custom Express middleware (auth checks, validation)\r\n├── schema.js         # Joi validation schemas\r\n└── package.json\r\n```\r\n\r\n## Prerequisites\r\n\r\n- Node.js (v24.18.0 or compatible)\r\n- MongoDB (local instance or MongoDB Atlas)\r\n- A Cloudinary account (for image uploads)\r\n- A Mapbox account (for map/geocoding features)\r\n\r\n## Setup & Installation\r\n\r\n1. **Clone the repository**\r\n   ```bash\r\n   git clone https://github.com/yada202006-hash/Airbnb.git\r\n   cd Airbnb\r\n   ```\r\n\r\n2. **Install dependencies**\r\n   ```bash\r\n   npm install\r\n   ```\r\n\r\n3. **Configure environment variables**\r\n\r\n   Create a `.env` file in the root directory with the following:\r\n   ```env\r\n   ATLASDB_URL=your_mongodb_connection_string\r\n   SECRET=your_session_secret\r\n   CLOUD_NAME=your_cloudinary_cloud_name\r\n   CLOUD_API_KEY=your_cloudinary_api_key\r\n   CLOUD_API_SECRET=your_cloudinary_api_secret\r\n   MAP_TOKEN=your_mapbox_access_token\r\n   ```\r\n\r\n4. **(Optional) Seed the database**\r\n\r\n   If an `init/index.js` seed script is present, run it to populate sample listings:\r\n   ```bash\r\n   node init/index.js\r\n   ```\r\n\r\n5. **Start the server**\r\n   ```bash\r\n   node app.js\r\n   ```\r\n\r\n   The app should now be running at `http://localhost:3000` (or whichever port is configured in `app.js`).\r\n\r\n## Usage\r\n\r\n- Visit the home page to browse all listings\r\n- Sign up for an account or log in\r\n- Create a new listing with a title, description, price, location, and image\r\n- Click into any listing to view details, map location, and reviews\r\n- Leave a review on a listing if logged in\r\n- Edit or delete listings you own\r\n\r\n## Contributing\r\n\r\nContributions are welcome! Feel free to fork the repo, create a feature branch, and open a pull request.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "Airbnb",
+            "github_url": "https://github.com/yada202006-hash/Airbnb"
+        }
+    },
+    {
+        "id": "f1c60fd0-a275-482c-a7fa-3e85514e4580",
+        "content": "Project Name: banking-ai\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/banking-ai\n\n            Primary Language:\n            None\n\n            Technologies:\n            Python\n\n            Topics:\n            \n\n            README:\n            # BankMind AI\n\n## Features\n- AI intent routing\n- LangGraph workflow\n- Gemini integration\n- PostgreSQL\n- Multi-turn onboarding\n- KYC collection\n- KYC verification\n- Human escalation\n- Account management\n\n## Architecture\n\nFrontend\n   ↓\nNode.js + Express\n   ↓\nPython + FastAPI\n   ↓\nLangGraph + Gemini\n   ↓\nPostgreSQL\n\n## Current Status\nCore backend completed and tested.\n\n## API Endpoints\nGET  /api/health\nPOST /api/ai/chat\nGET  /api/ai/status\nPOST /api/ai/kyc/verify/{session_id}\nPOST /api/ai/account/open/{session_id}",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "banking-ai",
+            "github_url": "https://github.com/yada202006-hash/banking-ai"
+        }
+    },
+    {
+        "id": "3920f1f0-1116-4980-8983-c3f6ab43e18e",
+        "content": "Project Name: daily-expense-mcp-server\n\n            Description: wirte all your expense in the database\n\n            GitHub URL: https://github.com/yada202006-hash/daily-expense-mcp-server\n\n            Primary Language:\n            Python\n\n            Technologies:\n            Python\n\n            Topics:\n            \n\n            README:",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "daily-expense-mcp-server",
+            "github_url": "https://github.com/yada202006-hash/daily-expense-mcp-server"
+        }
+    },
+    {
+        "id": "8b2075c0-6d86-4816-a575-1b1dfbc0e42e",
+        "content": "Project Name: decision-tree\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/decision-tree\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            # 🌳 Decision Tree Classifier\n# 📘 Overview\nThis project demonstrates the implementation of a Decision Tree algorithm for classification tasks. \nDecision Trees split data into branches based on feature values, making decisions at each node until reaching a leaf node that represents a class label.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "decision-tree",
+            "github_url": "https://github.com/yada202006-hash/decision-tree"
+        }
+    },
+    {
+        "id": "fe204fdb-ba30-4d25-bc29-29cd7bc6f92d",
+        "content": "Project Name: Deep-Learning\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/Deep-Learning\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "Deep-Learning",
+            "github_url": "https://github.com/yada202006-hash/Deep-Learning"
+        }
+    },
+    {
+        "id": "3bcbc300-f56d-4a3b-8016-6d1d826af343",
+        "content": "Project Name: Ensemble-learning\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/Ensemble-learning\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            # 🤝 Ensemble Learning\n# 📘 Overview\nThis project explores Ensemble Learning techniques, which combine multiple models to achieve better performance than individual learners.\nEnsemble methods reduce variance, bias, and improve generalization by leveraging the strengths of multiple algorithms.\n\n⚙️ Features\n1. Implementation of Bagging, Random Forest, and Extra Trees\n\n2. Boosting methods: AdaBoost, Gradient Boosting, XGBoost, LightGBM, CatBoost\n\n3. Stacking ensembles combining heterogeneous models\n\n4. Out‑of‑Bag (OOB) score evaluation\n\n5. Hyperparameter tuning with GridSearchCV\n\n6. Visualization of decision boundaries",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "Ensemble-learning",
+            "github_url": "https://github.com/yada202006-hash/Ensemble-learning"
+        }
+    },
+    {
+        "id": "1410178a-f8f2-41ba-9b35-99cfdd15358e",
+        "content": "Project Name: Feature-selection-filter-based-method\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/Feature-selection-filter-based-method\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            This repo demonstrates filter-based feature selection techniques used to improve machine learning model performance\nby removing irrelevant or redundant features before training. \nFilter methods rely on statistical measures rather than model performance, \nmaking them fast and independent of any specific algorithm.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "Feature-selection-filter-based-method",
+            "github_url": "https://github.com/yada202006-hash/Feature-selection-filter-based-method"
+        }
+    },
+    {
+        "id": "14444c68-c7af-41ed-a14c-130708983efe",
+        "content": "Project Name: feature-selection-wrapper-method\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/feature-selection-wrapper-method\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            wrapper-based feature selection techniques in machine learning. Wrapper methods evaluate subsets of features by training a model and measuring its performance, selecting the combination that yields the best results.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "feature-selection-wrapper-method",
+            "github_url": "https://github.com/yada202006-hash/feature-selection-wrapper-method"
+        }
+    },
+    {
+        "id": "902fa583-a401-49af-9fc5-9a3fe790258f",
+        "content": "Project Name: Gradient-descent\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/Gradient-descent\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            # Gradient descent\nGradient descent is an optimization algorithm used to minimize loss functions by iteratively updating parameters,\nand it comes in three main forms. Batch gradient descent computes the gradient using the entire dataset,\ngiving smooth and stable convergence but at the cost of being slow and memory‑intensive. \n**Stochastic gradient descent (SGD)** updates parameters using just one randomly chosen sample at a time,\nmaking it fast and efficient for large datasets, though the path of convergence is noisy. \n**Mini‑batch gradient descent** strikes a balance by updating parameters with small groups of samples, reducing noise\nwhile remaining faster than full batch updates, which is why it’s the most widely used method in modern \nmachine learning and deep learning training.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "Gradient-descent",
+            "github_url": "https://github.com/yada202006-hash/Gradient-descent"
+        }
+    },
+    {
+        "id": "352f26f7-4c67-4d27-8289-f2f1c26e3ffc",
+        "content": "Project Name: hyperparameter_ANN\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/hyperparameter_ANN\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            Hyperparameter Tuning with TensorFlow & Keras Tuner\nOverview\n\nThis repository contains examples and experiments on Hyperparameter Tuning using TensorFlow, Keras, and Keras Tuner. The goal is to optimize deep learning models by automatically searching for the best combination of hyperparameters.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "hyperparameter_ANN",
+            "github_url": "https://github.com/yada202006-hash/hyperparameter_ANN"
+        }
+    },
+    {
+        "id": "6bb2e7e3-7e22-47d9-bc5c-2c45c4f43c9b",
+        "content": "Project Name: KNN\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/KNN\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            This repository contains an implementation of the K‑Nearest Neighbors (KNN) algorithm from scratch in Python, along with examples using scikit-learn and also have own knn class.\nKNN is a simple, non‑parametric, and instance‑based learning algorithm used for both classification and regression tasks.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "KNN",
+            "github_url": "https://github.com/yada202006-hash/KNN"
+        }
+    },
+    {
+        "id": "642d11fe-ade5-44e2-a04d-b8cdd3fda9c4",
+        "content": "Project Name: Linear-Regression\n\n            Description: simple LR\n\n            GitHub URL: https://github.com/yada202006-hash/Linear-Regression\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            # Linear Regression from Scratch\nA simple implementation of Linear Regression in Python, built from scratch without using scikit-learn. This repo demonstrates the fundamentals of linear regression by manually calculating the slope and intercept of the regression line.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "Linear-Regression",
+            "github_url": "https://github.com/yada202006-hash/Linear-Regression"
+        }
+    },
+    {
+        "id": "f55f84c9-c5b1-4ddb-b359-0d55867e93ef",
+        "content": "Project Name: Movie-recommender-system-\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/Movie-recommender-system-\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook, Python\n\n            Topics:\n            \n\n            README:\n            # 🎬 Movie Recommender System\n\nA simple movie recommendation web app built with **Python**, **Streamlit**, and **TMDB API**.  \nIt suggests 5 similar movies based on your selection and displays their posters.\n\n## Live Demo\nhttps://movie-recommend-sonu.streamlit.app/\n---\n\n## 🚀 Features\n- Interactive web UI using Streamlit\n- Movie similarity computed with a pre-trained similarity matrix\n- Fetches movie posters dynamically from TMDB API\n- Displays recommendations in a clean 5-column layout\n\n---\n\n## 🛠️ Tech Stack\n- **Python 3.x**\n- **Streamlit** (for UI)\n- **Pandas** (for data handling)\n- **Pickle** (for loading pre-computed similarity matrix and movie dictionary)\n- **Requests** (for API calls to TMDB)\n\n---",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "Movie-recommender-system-",
+            "github_url": "https://github.com/yada202006-hash/Movie-recommender-system-"
+        }
+    },
+    {
+        "id": "cd4f56f2-052a-4b9a-af90-dfd7057fb00f",
+        "content": "Project Name: Multiple-Linear-Regression\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/Multiple-Linear-Regression\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            # Multiple Linear Regression\nAn implementation of Multiple Linear Regression in Python using the 50_Startups dataset. \nThis project demonstrates how to preprocess categorical data, apply regression, and evaluate model performance.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "Multiple-Linear-Regression",
+            "github_url": "https://github.com/yada202006-hash/Multiple-Linear-Regression"
+        }
+    },
+    {
+        "id": "b9acca07-4505-4d11-b7ff-89ac472b7630",
+        "content": "Project Name: Naive-Bayes\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/Naive-Bayes\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            # Naive Bayes Classifier\n\n## 📌 Overview\nThis project implements the **Naive Bayes algorithm** for classification tasks.  \nNaive Bayes is a probabilistic classifier based on Bayes’ Theorem with the assumption of independence between features.  \nIt is simple, fast, and effective for text classification, spam filtering, and sentiment analysis.\n\n---\n\n## ⚙️ Algorithm Variants\n- **Gaussian Naive Bayes** → for continuous/numeric features (assumes normal distribution).\n- **Multinomial Naive Bayes** → for discrete counts (word frequencies, text classification).\n- **Bernoulli Naive Bayes** → for binary features (presence/absence of words).\n\n---\n\n## 📂 Dataset\n- Input: Features (numeric or categorical depending on variant).\n- Output: Target labels (classes).\n- Example: Weather prediction dataset with features like temperature, humidity, and date.\n\n---",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "Naive-Bayes",
+            "github_url": "https://github.com/yada202006-hash/Naive-Bayes"
+        }
+    },
+    {
+        "id": "6099a0ef-2e8c-45e9-829c-fafc5549c010",
+        "content": "Project Name: next_word_predictor-Deep-Learning-LSTM-\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/next_word_predictor-Deep-Learning-LSTM-\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            Word Predictor using LSTM\n\n\n📌 Overview\n\n\nThis project implements a word prediction model using an LSTM (Long Short-Term Memory) neural network.\nThe model is trained on text data and learns to predict the next word in a sequence, making it useful for tasks like language modeling, autocomplete, and text generation.\n\n\n🏗️ Model Architecture\n\n\n1. Embedding Layer: Converts words into dense 300‑dimensional vectors.\n\n2. LSTM Layer: Captures sequential dependencies with 250 hidden units.\n\n3. Dense Layer: Outputs probabilities across the vocabulary using softmax activation.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "next_word_predictor-Deep-Learning-LSTM-",
+            "github_url": "https://github.com/yada202006-hash/next_word_predictor-Deep-Learning-LSTM-"
+        }
+    },
+    {
+        "id": "4332bfa3-e874-48a4-b372-61d5ea9b7a00",
+        "content": "Project Name: PCA\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/PCA\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            # Principal Component Analysis (PCA)\n\n## 📌 Overview\nThis project demonstrates **Principal Component Analysis (PCA)**, a dimensionality reduction technique widely used in machine learning and data analysis.  \nPCA transforms high-dimensional data into a lower-dimensional space while preserving as much variance as possible.\n\n---\n\n## ⚙️ Key Concepts\n- **Variance**: PCA identifies directions (principal components) where the data varies the most.\n- **Eigenvectors & Eigenvalues**: Principal components are eigenvectors of the covariance matrix; eigenvalues indicate the amount of variance captured.\n- **Dimensionality Reduction**: By selecting the top `k` components, we reduce features while retaining most of the information.\n\n---\n\n## 📂 Dataset\n- Input: Multivariate dataset (e.g., Iris dataset, MNIST, or custom data).\n- Output: Reduced feature set using PCA.\n- Example: Reducing digit pixle  features for visualization.\n\n---",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "PCA",
+            "github_url": "https://github.com/yada202006-hash/PCA"
+        }
+    },
+    {
+        "id": "4d022c7f-1371-4151-930d-8aa2c81fa94c",
+        "content": "Project Name: portfolio\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/portfolio\n\n            Primary Language:\n            EJS\n\n            Technologies:\n            EJS, CSS, JavaScript\n\n            Topics:\n            \n\n            README:\n            # Portfolio\n\nA personal portfolio built with Express and EJS. It includes a project showcase and an admin area for adding projects, with MongoDB for storage and Cloudinary for project images.\n\n## Run locally\n\n1. Install dependencies:\n   ```bash\n   npm install\n   ```\n2. Create a `.env` file in the project root with:\n   ```env\n   ATLASDB_URL=your_mongodb_connection_string\n   CLOUD_NAME=your_cloudinary_cloud_name\n   CLOUD_API_KEY=your_cloudinary_api_key\n   CLOUD_API_SECRET=your_cloudinary_api_secret\n   username=your_admin_username\n   password=your_admin_password\n   ```\n3. Start the app:\n   ```bash\n   npm start\n   ```\n\nThe app runs on `http://localhost:3000` by default.\n\n## Deploy on Render\n\nCreate a Render Web Service connected to this repository. Use `npm install` as the build command and `npm start` as the start command. Add the environment variables listed above in the Render dashboard; Render provides the `PORT` variable automatically.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "portfolio",
+            "github_url": "https://github.com/yada202006-hash/portfolio"
+        }
+    },
+    {
+        "id": "59e05cda-a223-46ea-ad35-0e139240273e",
+        "content": "Project Name: posture-detection-using-posenet\n\n            Description: use posenet and ml5\n\n            GitHub URL: https://github.com/yada202006-hash/posture-detection-using-posenet\n\n            Primary Language:\n            JavaScript\n\n            Technologies:\n            JavaScript, HTML\n\n            Topics:\n            \n\n            README:\n            # Posture Detection Using PoseNet and ml5.js\r\n📌 Overview\r\n\r\nThis project is a real-time posture detection system built using PoseNet and ml5.js. It uses a webcam to detect human body keypoints and analyzes the position of different body parts to determine whether a person's posture is correct or incorrect.\r\n\r\nThe project demonstrates how machine learning can be used with browser-based JavaScript applications for real-time pose estimation.\r\n\r\n✨ Features\r\nReal-time human pose detection using a webcam\r\n\r\nDetects body keypoints such as:\r\n\r\n-> Nose\r\n-> Shoulders\r\n-> Elbows\r\n-> Wrists\r\n-> Hips\r\n-> Knees\r\n-> Ankles\r\nUses PoseNet for pose estimation\r\nBuilt with ml5.js for easy machine-learning integration\r\nProvides visual feedback on detected posture\r\nRuns directly in the browser\r\n\r\n\r\n🛠️ Technologies Used\r\n-> HTML5 – Application structure\r\n-> JavaScript – Application logic\r\n-> ml5.js – Machine-learning library\r\n-> PoseNet – Human pose estimation model\r\n-> Webcam – Real-time video input\r\n🧠 How It Works\r\n\r\nThe application follows these basic steps:\r\n\r\nThe user's webcam captures a live video stream.\r\nml5.js loads the PoseNet model.\r\nPoseNet identifies key points on the human body.\r\nThe application extracts the coordinates of important keypoints.\r\nAngles and distances between body parts are calculated.\r\nThese measurements are compared against predefined posture conditions.\r\nThe application displays whether the detected posture is correct or incorrect.\r\nExample\r\n\r\nFor sitting posture, the application can analyze the alignment between:\r\n\r\n1.  Head and shoulders\r\n2. Shoulders and hips\r\n3. Hips and knees\r\n\r\nIf the body alignment exceeds a predefined threshold, the application can provide feedback to the user.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "posture-detection-using-posenet",
+            "github_url": "https://github.com/yada202006-hash/posture-detection-using-posenet"
+        }
+    },
+    {
+        "id": "82afb470-e1be-4394-8b3c-7c6ab2d928c8",
+        "content": "Project Name: Regularrization\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/Regularrization\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            Regularization is a technique used to prevent overfitting in machine learning models by adding a penalty term to the loss function.\nThis repository demonstrates three popular regularization methods:\n\n**Ridge Regression (L2 penalty)** – shrinks coefficients but keeps all features.\n\n**Lasso Regression (L1 penalty)** – performs feature selection by driving some coefficients to zero.\n\n**Elastic Net (L1 + L2 penalty)** – combines Ridge and Lasso, useful when features are correlated.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "Regularrization",
+            "github_url": "https://github.com/yada202006-hash/Regularrization"
+        }
+    },
+    {
+        "id": "04eadd8b-6652-4fd3-9b55-da9429851b8a",
+        "content": "Project Name: SIH\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/SIH\n\n            Primary Language:\n            None\n\n            Technologies:\n            JavaScript\n\n            Topics:\n            \n\n            README:",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "SIH",
+            "github_url": "https://github.com/yada202006-hash/SIH"
+        }
+    },
+    {
+        "id": "0570999e-d500-4b2f-a4d1-62fbfb4fe8c5",
+        "content": "Project Name: SIH-FRONTEND-LATEST\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/SIH-FRONTEND-LATEST\n\n            Primary Language:\n            None\n\n            Technologies:\n            HTML, CSS, JavaScript\n\n            Topics:\n            \n\n            README:",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "SIH-FRONTEND-LATEST",
+            "github_url": "https://github.com/yada202006-hash/SIH-FRONTEND-LATEST"
+        }
+    },
+    {
+        "id": "8025484d-d3b4-486a-b1ba-7e1373df7f56",
+        "content": "Project Name: SIH-project\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/SIH-project\n\n            Primary Language:\n            JavaScript\n\n            Technologies:\n            JavaScript\n\n            Topics:\n            \n\n            README:",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "SIH-project",
+            "github_url": "https://github.com/yada202006-hash/SIH-project"
+        }
+    },
+    {
+        "id": "1267b9d7-e36b-45e0-8236-d61b29a91c46",
+        "content": "Project Name: SONU_SHOP\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/SONU_SHOP\n\n            Primary Language:\n            JavaScript\n\n            Technologies:\n            JavaScript, CSS, HTML\n\n            Topics:\n            \n\n            README:",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "SONU_SHOP",
+            "github_url": "https://github.com/yada202006-hash/SONU_SHOP"
+        }
+    },
+    {
+        "id": "1c196938-82f0-43bf-8a18-299614e6e0d5",
+        "content": "Project Name: spam-classifier\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/spam-classifier\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook, Python\n\n            Topics:\n            \n\n            README:\n            🔎 # SMS Spam classifier\n\n## Live Demo\nhttps://spam-classifier-sonu.streamlit.app/\n\n\nThis project is a machine learning classifier that predicts whether a given SMS message is spam or ham (not spam).\nIt uses Natural Language Processing (NLP) techniques for text preprocessing and applies different Naive Bayes models to classify messages.\n\n📂 Dataset\n1. The dataset contains SMS messages labeled as spam or ham.\n 2.  Each message is preprocessed to remove noise and converted into numerical features for training.\n\n⚙️ Preprocessing\n  1. Steps applied to the text data:\n  \n  2. Lowercasing all words.\n  \n  3. Removing punctuation using string.punctuation.\n  \n  4. Removing stopwords using nltk.corpus.stopwords.\n  \n  5. Tokenization of words.\n  \n  6. Vectorization using CountVectorizer or TF-IDF.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "spam-classifier",
+            "github_url": "https://github.com/yada202006-hash/spam-classifier"
+        }
+    },
+    {
+        "id": "a4375a75-addb-4be6-8179-c43d849580fb",
+        "content": "Project Name: SVM\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/SVM\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            # Support Vector Machine (SVM)\n# 📘 Overview\nThis project demonstrates the implementation of a Support Vector Machine (SVM) for classification tasks. \nSVMs are powerful supervised learning models that find the optimal hyperplane separating data points of different classes with maximum margin.\n\n⚙️ Features\n1. Implementation using scikit‑learn\n\n2. Supports linear, polynomial, and RBF kernels\n\n3. Hyperparameter tuning with GridSearchCV\n\n4. Visualization of decision boundaries\n\n5. Works with real datasets (e.g., pulsar stars classificatio",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "SVM",
+            "github_url": "https://github.com/yada202006-hash/SVM"
+        }
+    },
+    {
+        "id": "37420352-7b70-4bb0-8d32-191b690329f4",
+        "content": "Project Name: video-Ai-Assistant\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/video-Ai-Assistant\n\n            Primary Language:\n            Python\n\n            Technologies:\n            Python\n\n            Topics:\n            \n\n            README:\n            # Video AI Assistant\n\nA Streamlit app that turns a video or YouTube URL into a transcript, summary, action items, key decisions, and follow-up questions. You can also ask questions about the video and download its transcript.\n\nThis is a college-level portfolio project. Processing long videos can take several minutes and requires a machine with enough memory and disk space.\n\n## Features\n\n- Process a video by uploading an MP4, MOV, AVI, MKV, or WEBM file, or by entering a YouTube URL.\n- Extract audio, convert it to WAV, and split it into chunks for transcription.\n- Transcribe audio locally using OpenAI Whisper. The current default task translates speech into English.\n- Generate a title, summary, action items, key decisions, and open questions using the Groq API.\n- Search the transcript and chat about it using retrieval-augmented generation (RAG).\n- Download the generated transcript as a text file.\n\n## How it works\n\nFor an uploaded video, the app saves the upload on the server before processing it. For a YouTube URL, the server downloads the audio using `yt-dlp`. Audio conversion and chunking use FFmpeg through Pydub. Whisper runs locally on the machine hosting the app; text generation uses the Groq API; transcript search uses Chroma and a Hugging Face sentence-transformer embedding model.\n\n## Requirements\n\n- Python 3.10 or newer\n- FFmpeg installed and available on your `PATH`\n- A Groq API key\n- Internet access on first run to download model files and, for YouTube input, to retrieve audio\n\nThe Whisper and embedding models may take time and disk space to download on their first use. Transcription is resource-intensive; a CPU-only host may process videos slowly.\n\n## Run locally\n\n### 1. Clone the repository\n\n```bash\ngit clone <your-repository-url>\ncd <repository-folder>\n```\n\n### 2. Create and activate a virtual environment\n\nWindows PowerShell:\n\n```powershell\npython -m venv .venv\n.\\.venv\\Scripts\\Activate.ps1\n```\n\nmacOS or Linux:\n\n```bash\npython3 -m venv .venv\nsource .venv/bin/activate\n```\n\n### 3. Install FFmpeg\n\nInstall the FFmpeg executable for your operating system and make sure the `ffmpeg` command works in a new terminal. The Python package `ffmpeg-python` does not install the FFmpeg executable. The app's audio conversion uses Pydub, which must also be able to find FFmpeg. `FFMPEG_LOCATION` is passed to `yt-dlp` for YouTube downloads; it does not configure Pydub.\n\n### 4. Install Python dependencies\n\n```bash\npip install -r requirements.txt\n```\n\n### 5. Configure environment variables\n\nCreate a `.env` file in the project root:\n\n```env\nGROQ_API_KEY=your_groq_api_key\nWHISPER_MODEL=small\n```\n\n`GROQ_API_KEY` is required. `WHISPER_MODEL` is optional; it defaults to `small`. Never commit your `.env` file or publish your API key. For deployment, configure these values using the hosting provider's secrets or environment-variable settings.\n\n### 6. Start the app\n\n```bash\nstreamlit run main.py\n```\n\nOpen the local URL printed by Streamlit in your browser.\n\n## Deploying\n\nDeploy the repository to a host that supports Streamlit, Python dependencies, FFmpeg, outbound internet access, and the memory and disk space needed by Whisper and the embedding model. Configure `GROQ_API_KEY` in the host's secret settings; do not put credentials in source code.\n\nYouTube audio is downloaded by the server each time someone processes a URL. Availability depends on the host's network and YouTube's behavior. Large videos may exceed the host's processing time, memory, or storage limits, so test with a short video first.\n\nThe current code writes downloaded, converted, and chunked audio to local storage. In particular, not all generated audio files are removed after processing. On a persistent host, clean these files up or add cleanup logic before inviting public use. Some hosts use temporary storage that may be cleared when the app restarts.\n\n## Project structure\n\n```text\nmain.py                  Streamlit interface and processing flow\ncore/\n  transcriber.py         Local Whisper transcription\n  summarize.py           Summary and title generation\n  extractor.py           Action items, decisions, and questions\n  rag_engine.py          Transcript question-answering chain\n  vector_store.py        Transcript embeddings and Chroma search\nutils/\n  audio_processor.py     YouTube audio, conversion, and chunking\nrequirements.txt         Python dependencies\n```\n\n## Notes\n\n- Only process videos you have permission to use.\n- The app sends transcript text to the configured Groq API for generated summaries and analysis.\n- Answers in the chat may use general knowledge when the transcript does not contain the answer; check the app prompt and verify important information.\n- Do not upload API keys, `.env` files, virtual environments, downloaded media, or generated audio chunks to a public repository.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "video-Ai-Assistant",
+            "github_url": "https://github.com/yada202006-hash/video-Ai-Assistant"
+        }
+    },
+    {
+        "id": "bfb7082d-c0a0-43ad-82b3-a83b73d93db3",
+        "content": "Project Name: Web-Dev-Projects-\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/Web-Dev-Projects-\n\n            Primary Language:\n            JavaScript\n\n            Technologies:\n            JavaScript, HTML, CSS\n\n            Topics:\n            \n\n            README:\n            # Simple projects \n- good for practice learning",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "Web-Dev-Projects-",
+            "github_url": "https://github.com/yada202006-hash/Web-Dev-Projects-"
+        }
+    },
+    {
+        "id": "89d42fcf-ee5d-4f0c-afeb-fab70252ab6d",
+        "content": "Project Name: yada202006-hash\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/yada202006-hash\n\n            Primary Language:\n            None\n\n            Technologies:\n            \n\n            Topics:\n            \n\n            README:\n            # 💫 Hi 👋, I'm sonu\n**A passionate AI/full stack Engineer**\n\nEmail Me 👉 ✉️ **yada202006@gmail.com.com** For Collaboration/Project or Anything Else. 😊😊\n\n- 🔭 **I’m currently working on:** Agentic AI\n- 🌱 **I’m currently learning:** AI/Devlopment\n- 👯 **I’m looking to collaborate** if required\n- 🤔 **I’m looking for help with:** Your project here\n- 💬 **Ask me about:** Collaboration, Tech Support\n- 📫 **How to reach me:** yada202006@gmail.com\n- ⚡ **Fun fact:** I Love Tech and Tech Love Me\n\n## 🌐 Socials:\n[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/whos_aaviii) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/sonu-yadav-2b2b04409) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:yada202006@gmail.com) \n\n<div align=\"center\">\n  <img src=\"https://profile-readme-generator.com/assets/snake.svg\" alt=\"Snake animation\" />\n</div>\n\n\n# 💻 Tech Stack:\n![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)\n\n### 🔝 Top Contributed Repo\n![](https://github-contributor-stats.vercel.app/api?username=yada202006-hash&limit=5&theme=dark&combine_all_yearly_contributions=true)\n\n---\n[![](https://komarev.com/ghpvc/?username=yada202006-hash&icon=0&color=0)](https://visitcount.itsvg.in)\n\n# 📊 GitHub Stats:\n![](https://github-readme-stats.shion.dev/api?username=yada202006-hash&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>\n![](https://streak-stats.demolab.com/?user=yada202006-hash&theme=dark&hide_border=false)<br/>\n![](https://github-readme-stats.shion.dev/api/top-langs/?username=yada202006-hash&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)\n\n![](https://github-readme-stats.vercel.app/api?username=yada202006-hash&theme=dark&hide_border=false&include_all_commits=true&count_private=true)\n\n## 🏆 GitHub Trophies\n![](https://github-profile-trophy.vercel.app/?username=yada202006-hash&theme=radical&no-frame=false&no-bg=true&margin-w=4)\n\n### ✍️ Random Dev Quote\n![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)\n\n\n<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "yada202006-hash",
+            "github_url": "https://github.com/yada202006-hash/yada202006-hash"
+        }
+    },
+    {
+        "id": "702a6ded-023a-44fe-a16d-200c4dae6090",
+        "content": "Project Name: Zomato-Data-Analysis\n\n            Description: None\n\n            GitHub URL: https://github.com/yada202006-hash/Zomato-Data-Analysis\n\n            Primary Language:\n            Jupyter Notebook\n\n            Technologies:\n            Jupyter Notebook\n\n            Topics:\n            \n\n            README:\n            # Zomato Restaurant Data Analysis\n\nThis project explores a Zomato restaurant dataset using Python. The Jupyter notebook loads the data, cleans restaurant ratings, and uses Matplotlib and Seaborn to visualize restaurant types, votes, ratings, costs, and online-order trends.\n\n## Project files\n\n- `Zomato_data.csv` - restaurant data used in the analysis.\n- `zomato.ipynb` - notebook containing the analysis and visualizations.\n\n## Dataset\n\nThe dataset contains 148 restaurant records and includes columns such as:\n\n- `name` - restaurant name\n- `online_order` - whether online ordering is available\n- `book_table` - whether table booking is available\n- `rate` - restaurant rating\n- `votes` - number of votes\n- `approx_cost(for two people)` - approximate cost for two people\n- `listed_in(type)` - restaurant type\n\n## Analysis\n\nThe notebook includes:\n\n- Loading and inspecting the CSV data with Pandas.\n- Converting ratings such as `4.1/5` into numeric values.\n- Counting restaurants by type.\n- Comparing votes across restaurant types.\n- Viewing the rating distribution and approximate costs.\n- Exploring ratings by online-order availability and online orders across restaurant types.\n\nFor example, this Matplotlib bar chart counts restaurants in each `listed_in(type)` category:\n\n```python\ncounts = dataframe[\"listed_in(type)\"].value_counts()\n\nplt.bar(counts.index, counts.values, color=\"orange\")\nplt.xlabel(\"Restaurant type\")\nplt.ylabel(\"Number of restaurants\")\nplt.title(\"Restaurants by type\")\nplt.tight_layout()\nplt.show()\n```\n\n## Requirements\n\n- Python 3\n- Jupyter Notebook\n- pandas\n- numpy\n- matplotlib\n- seaborn\n\nInstall the Python packages with:\n\n```bash\npip install pandas numpy matplotlib seaborn jupyter\n```\n\n## Run the notebook\n\n1. Keep `Zomato_data.csv` and `zomato.ipynb` in the same folder.\n2. Open a terminal in that folder and start Jupyter:\n\n   ```bash\n   jupyter notebook\n   ```\n\n3. Open `zomato.ipynb` and run the cells from top to bottom.",
+        "metadata": {
+            "category": "project",
+            "source": "github",
+            "project_name": "Zomato-Data-Analysis",
+            "github_url": "https://github.com/yada202006-hash/Zomato-Data-Analysis"
+        }
+    }
+]
